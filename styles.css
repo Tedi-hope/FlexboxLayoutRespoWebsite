@@ -1,0 +1,393 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    line-height: 25px;
+}
+hr{
+    text-align: center;
+    margin-top: 17px;
+    background-color:blueviolet;
+    width:165px;
+    height:3px;
+    margin-left: 40%;
+}
+/*Start of code for page1*/
+.page1
+{
+    background-color: linear-gradient(to bottom, #04070c, #010a0e, #000d0d, #020f08, #0b0f02);
+    background-image: url(images/hero.jpg);
+    opacity: 0.98;
+    width:100%;
+    height:100vh;
+}
+
+/*Start of code for flexup class*/
+.flexup{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.logo{
+    /*width:100px;*/
+    color:rgb(236, 225, 225);
+    margin:10px;
+}
+.navclass{
+    width:400px;
+    /*background-color: aqua;*/
+    
+}
+.navclass ul li{
+  list-style-type: none;
+  display: inline-block;
+  font-size: large;
+  padding:10px;
+}
+
+.navclass li:hover{
+background-color: orange;
+}
+.navclass a{
+    color:rgb(236, 225, 225);
+    text-decoration: none;
+}
+/* End of Code for flexup class*/
+/*Start of code for flexmid class*/
+.flexmid{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 70vh;
+    align-items: center;
+    color: white;
+    padding:10px;
+    /*margin-top:-50px;  to control the space between two flex containers we use negative margin*/
+    margin-top: 35px;
+}
+
+.flexmidh1 h1
+{
+    font-weight: bolder;
+    font-size:70px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.flexmidh2 h2
+{
+    text-align: center;
+    font-weight: bolder;
+    font-size:30px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+}
+.flexmidbut button{
+    width:285px;
+    height:80px;
+    background-color:#5b58d3;
+    border:1px solid #5b58d3;
+    border-radius: 10px;
+    margin-top:10px;
+    color:white;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+/*End of code for page1*/
+/*Start of page 2*/
+.page2
+{
+    font-family:Arial, Helvetica, sans-serif;
+    margin-top: 10vh;
+}
+.subpage2
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height:20vh;
+    align-items: center;
+}
+.para
+{
+    width:55%;
+    height:270px;
+}
+.para h2{
+    text-align: center;
+    margin-bottom: 10px;
+    margin-top: 8vh;
+}
+ 
+.fleximgone{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:100%;
+    margin-top: 15vh;
+}
+
+.imagedspone
+{
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+    width: 85%;
+}
+.imagecont1{
+    flex-basis:20%;
+    margin-right: 10px;
+    height: 300px;
+}
+.imagecont2{
+    flex-basis: 80%;
+    height: 300px;
+}
+.fleximgtwo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:100%;
+}
+.imagedsptwo
+{
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+    width: 85%;
+}
+.imagecont3{
+   
+    flex-basis: 80%;
+    height: 300px;
+    margin-right: 10px;
+}
+.imagecont4{
+    flex-basis:20%;
+    height: 300px;
+}
+.page3{
+    font-family:Arial, Helvetica, sans-serif;
+    margin-top: 25vh;
+    background-color: rgb(230, 240, 236);
+}
+
+.subpage3{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height:20vh;
+    align-items: center;
+    padding:10px;
+}
+.fandS{
+    width:55%;
+    height:10vh;
+    margin-bottom:15vh;
+    margin-top: 8vh;
+}
+.fandS h1{
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.service{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height:35vh;
+    align-items: center;
+    margin-top: 15px;
+}
+
+.service h3{
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.photo, .web, .content{
+    width:370px;
+    margin:15px;
+    text-wrap:wrap;
+}
+.news
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height:35vh;
+    align-items: center;
+}
+
+.subnews{
+    width:670px;
+    margin:15px;
+    text-wrap:wrap;
+}
+.subnews h1{
+    text-align: center;
+    margin-bottom: 10px;
+}
+.formsub{
+    margin-top: 10vh;
+}
+.formsub input[type=text]
+{
+   width:450px;
+   margin-right: 15vh;
+   height:45px;
+
+}
+.formsub input[type=submit]
+{
+    width:250px;
+    height:45px;
+    background-color: #605eca;
+    color: white;
+    text-transform: uppercase;
+    font-weight: bolder;
+    font-size: 15px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    cursor: pointer;
+}
+.lastpage
+{
+    background-color: black;
+    margin-top: 25%;
+}
+.foot{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height:30vh;
+    align-items: center;
+}
+.footer{
+    background-color: aqua;
+    height:90%;
+    width:100%;
+    margin-top:-20px;
+    
+}
+.footer p{
+    font-size:larger;
+    font-weight: bolder;
+    padding:5%;
+    text-align: center;
+}
+
+/*Code for responsiveness*/
+@media screen and (max-width:600px) 
+{
+    .flexup{
+        display:flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .logo{
+        /*width:100px;*/
+        color:rgb(236, 225, 225);
+         margin-left: 30%;
+    }
+    .navclass{
+        width:400px;
+        /*background-color: aqua;*/
+        margin-left: 15%;
+    }
+    .flexmid{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    .flexmid{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        height: 65vh;
+    }
+    
+    .flexmidh1 h1
+    {
+        font-size:60px;
+        text-align: center;
+        line-height: 55px;
+    }
+    .fleximgone{
+        width:100%;
+        margin-top: 40vh;
+    }
+
+.imagecont1{
+    margin-right: 10px;
+    height: 350px;
+    width:40%;
+}
+.imagecont2{
+    height: 350px;
+    width: 60%;
+}
+.imagecont3{
+   
+    width:60%;
+    height: 300px;
+    margin-right: 10px;
+}
+.imagecont4{
+    width:40%;
+    height: 300px;
+}
+
+.subpage3{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height:20vh;
+    align-items: center;
+    padding:10px;
+}
+
+.fandS{
+    width:55%;
+    height:10vh;
+    margin-bottom:75vh;
+    margin-top: 30vh;
+}
+
+.service{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height:135vh;
+    align-items: center;
+    margin-top: 15px;
+}
+
+.news
+{
+    display: flex;
+    flex-direction: column;
+   
+}
+.subnews{
+    width:470px;
+    margin:15px;
+    text-wrap:wrap;
+}
+.formsub{
+    margin-top: 10vh;
+    margin-left: 20vh;
+}
+.formsub input[type=text]
+{
+   width:350px;
+   margin-right: 15vh;
+   height:45px;
+
+}
+
+.formsub input[type=submit]
+{
+    width:200px;
+    margin-top: 3vh;
+    margin-left: 8vh;
+}
+}
